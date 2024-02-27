@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,700&display=swap');
+
+
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #E6EFF6;
+    font-size: 16px;
+    font-family: Karla;
+    font-weight: 400px;
+}
+*,*::before,*::after{
+    box-sizing: inherit;
+    margin: 0;
+}
+#conteiner{
+    /* width: 650px;
+    height: 470px; */
+    margin: 100px;
+    box-shadow: 0px 7px 18px 0px rgba(0,0,0,0.86);
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+#upperBox{
+    padding:30px;
+    width: 100%;
+    height: 45%;
+    background-color: white;
+}
+#lowerBox{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+#lowerLeft, #lowerRight{
+    padding: 30px;
+    flex-basis: 50%;
+}
+#lowerLeft{
+    background-color: #2BB3B1;
+}
+#lowerRight{
+    background-color: #4ABEBD;
+}
+h2{
+    padding-bottom: 20px;
+    color: #2BB3B1;
+}
+#upperH3{
+    padding-bottom: 15px;
+    color: #BFDF32;
+}
+#upperP{
+    line-height: 1.5;
+    color: #6D84AB;
+    
+}
+#subscription{
+    padding-bottom: 10px;
+}
+#price{
+    font-weight: bold;
+    font-size:xx-large;
+}
+#price,#time{
+    display: inline-block;
+}
+#time{
+    position: relative;
+    top: -6px;
+    padding-left: 5px;
+    font-size: 0.9REM;
+    opacity: 0.7;
+}
+#price-box{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+button{
+    background-color: #BFDF32;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #B7D52F;
+    transform: scale(1.05);
+}
+ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+li{
+    padding-top: 3px;
+    opacity: 0.8;
+}
+@media (max-width: 820px ) {
+    #lowerBox{
+        flex-direction: column;
+    }
+}
